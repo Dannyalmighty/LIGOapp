@@ -24,7 +24,7 @@ public class MenuPage extends MainActivity{
         setContentView(R.layout.menu_page);
         ButterKnife.bind(this);
 
-        //set learn more button to show main_menu after click
+        //set ligo button to show ligo_information after click
         ligo_button = (ImageButton) findViewById(R.id.ligo_button);
         ligo_button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -34,7 +34,7 @@ public class MenuPage extends MainActivity{
             }
         });
 
-        //set learn more button to show main_menu after click
+        //set einstein button to show einstein_information after click
         einstein_button = (ImageButton) findViewById(R.id.einstein_button);
         einstein_button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -44,7 +44,7 @@ public class MenuPage extends MainActivity{
             }
         });
 
-        //set learn more button to show main_menu after click
+        //set blackhole button to show blackhole_Information after click
         blackhole_button = (ImageButton) findViewById(R.id.blackhole_button);
         blackhole_button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -54,7 +54,7 @@ public class MenuPage extends MainActivity{
             }
         });
 
-        //set learn more button to show main_menu after click
+        //set funfact button to show fun fact_information after click
         funfact_button = (ImageButton) findViewById(R.id.faq_button);
         funfact_button.setOnClickListener(new View.OnClickListener() {
             @Override
