@@ -25,6 +25,7 @@ public class MainActivity extends Activity {
         ActionBar actionBar = getActionBar();
         actionBar.hide();
 
+        //set learn more button to show main_menu after click
         learn_more_button = (ImageButton) findViewById(R.id.learn_more_Button);
         learn_more_button.setOnClickListener(new View.OnClickListener() {
             @Override

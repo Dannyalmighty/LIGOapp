@@ -20,6 +20,22 @@
             android:name=".MenuPage"
             android:label="MenuPage">
         </activity>
+        <activity
+            android:name=".LigoInformation"
+            android:label="LigoInformation">
+            </activity>
+        <activity
+            android:name=".EinsteinInformation"
+            android:label="EinsteinInformation">
+        </activity>
+        <activity
+            android:name=".BlackHoleInformation"
+            android:label="BlackHoleInformation">
+        </activity>
+        <activity
+            android:name=".FunFactInformation"
+            android:label="FunFactInformation">
+        </activity>
     </application>
 
 </manifest>
