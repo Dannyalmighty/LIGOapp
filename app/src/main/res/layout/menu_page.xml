@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <FrameLayout
+    android:layout_width="wrap_content"
+    android:layout_height="0dip"
+    android:layout_weight=".25">
+    <ImageButton
+        android:id="@+id/ligo_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight=".25"
+        android:src="@drawable/menu_ligo"
+        android:scaleType="fitXY"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#99FBC02D"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="LIGO"
+            android:id="@+id/ligotext"
+            android:layout_gravity="center"
+            android:textColor="#f7fdff"
+            android:textSize="60dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dip"
+        android:layout_weight=".25">
+        <ImageButton
+            android:id="@+id/einstein_button"
+            android:src="@drawable/menu_einstein"
+            android:scaleType="fitXY"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight=".25" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#B34CAF50"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="           Einstein\n Gravitational Theory"
+            android:id="@+id/einsteintext"
+            android:layout_gravity="center"
+            android:textSize="37dp"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="italic" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dip"
+        android:layout_weight=".25">
+        <ImageButton
+            android:id="@+id/blackhole_button"
+            android:src="@drawable/menu_blackhole"
+            android:scaleType="fitXY"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight=".25" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#B3303F9F"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Black Holes"
+            android:id="@+id/textView2"
+            android:layout_gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="40dp"
+            android:textStyle="italic" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dip"
+        android:layout_weight=".25">
+        <ImageButton
+            android:id="@+id/faq_button"
+            android:src="@drawable/menu_faq"
+            android:scaleType="fitXY"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight=".25" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#B301579B"/>
+
+    </FrameLayout>
+
+</LinearLayout>
