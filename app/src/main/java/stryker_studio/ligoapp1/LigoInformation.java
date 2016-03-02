@@ -15,4 +15,6 @@ public class LigoInformation extends MainActivity{
         ButterKnife.bind(this);
 
     }
+
+
 }

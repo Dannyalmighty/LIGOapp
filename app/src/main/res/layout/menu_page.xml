@@ -17,6 +17,7 @@
         android:layout_weight=".25"
         android:src="@drawable/menu_ligo"
         android:scaleType="fitXY"
+        android:transitionName="ligoImage"
         />
     <TextView
         android:layout_width="match_parent"

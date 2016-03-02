@@ -4,4 +4,12 @@
     android:layout_height="match_parent"
     android:background="#FBC02D">
 
+    <ImageView
+        android:id="@+id/ligo_button"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/menu_ligo"
+        android:scaleType="fitXY"
+        android:transitionName="ligoImage" />
 </LinearLayout>

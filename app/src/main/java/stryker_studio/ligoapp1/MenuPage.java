@@ -1,5 +1,6 @@
 package stryker_studio.ligoapp1;
 
+import android.app.ActivityOptions;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -22,7 +23,9 @@ public class MenuPage extends MainActivity{
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.menu_page);
+
         ButterKnife.bind(this);
+
 
         //set ligo button to show ligo_information after click
         ligo_button = (ImageButton) findViewById(R.id.ligo_button);
@@ -30,7 +33,8 @@ public class MenuPage extends MainActivity{
             @Override
             public void onClick(View v) {
                 Intent intent2 = new Intent(MenuPage.this, LigoInformation.class);
-                startActivity(intent2);
+                ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(MenuPage.this, (View)ligo_button, "ligoImage");
+                startActivity(intent2, options.toBundle());
             }
         });
 
