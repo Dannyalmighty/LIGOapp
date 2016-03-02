@@ -11,5 +11,5 @@
         android:layout_gravity="center_horizontal"
         android:src="@drawable/menu_ligo"
         android:scaleType="fitXY"
-        android:transitionName="ligoImage" />
+        android:transitionName="ligoTransition" />
 </LinearLayout>

@@ -4,4 +4,12 @@
     android:layout_height="match_parent"
     android:background="#01579B">
 
+    <ImageView
+        android:id="@+id/fun_button"
+        android:src="@drawable/menu_faq"
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:transitionName="funfactTransition"/>
 </LinearLayout>

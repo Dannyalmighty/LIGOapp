@@ -4,4 +4,12 @@
     android:layout_height="match_parent"
     android:background="#303F9F">
 
+    <ImageView
+        android:id="@+id/blackhole_button"
+        android:src="@drawable/menu_blackhole"
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:transitionName="blackholeTransition"/>
 </LinearLayout>
