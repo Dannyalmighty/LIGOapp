@@ -12,4 +12,22 @@
         android:src="@drawable/menu_ligo"
         android:scaleType="fitXY"
         android:transitionName="ligoTransition" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="70dip"
+        android:layout_gravity="center_horizontal"
+        android:background="#FDD835">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Laser Interferometer\nGravitational-Wave Observatory"
+            android:id="@+id/textView3"
+            android:textColor="#FFFFFF"
+            android:textSize="23dp"
+            android:textStyle="italic"
+            android:layout_marginLeft="10dp" />
+    </LinearLayout>
 </LinearLayout>

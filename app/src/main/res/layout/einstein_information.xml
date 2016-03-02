@@ -12,4 +12,22 @@
         android:layout_height="230dp"
         android:layout_gravity="center_horizontal"
         android:transitionName="einsteinTransition"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="70dip"
+        android:layout_gravity="center_horizontal"
+        android:background="#81C784">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Einstein's Gravitational\nWave Theory"
+            android:id="@+id/textView3"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp"
+            android:textStyle="italic"
+            android:layout_marginLeft="10dp" />
+    </LinearLayout>
 </LinearLayout>
