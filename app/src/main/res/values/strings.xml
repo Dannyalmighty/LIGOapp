@@ -15,9 +15,9 @@
  scientific community to participate in detector development, observation, and data analysis. The
  capabilities of the LIGO detectors have been improved by the recently completed Advanced LIGO project,
  which will increase the sensitivity and observational range of LIGO by a factor of 10, bringing 1000
- times more galaxies into LIGO's observational range.
+ times more galaxies into LIGO\'s observational range.
 
- The design and construction of LIGO was carried out by LIGO Laboratory’s team of scientists, engineers,
+ The design and construction of LIGO was carried out by LIGO Laboratory\’s team of scientists, engineers,
  and staff at the California Institute of Technology (Caltech) and the Massachusetts Institute of
  Technology (MIT), and collaborators from the over 80 scientific institutions world-wide that are members
  of the LIGO Scientific Collaboration.
@@ -46,7 +46,7 @@ make gravitational theory compatible with the spirit of special relativity, Eins
  relativity (1915), the prototype of all modern gravitational theories. Its crucial ingredient, involving a colossal
  intellectual jump, is the concept of gravitation, not as a force, but as a manifestation of the curvature of
  space-time, an idea first mentioned in rudimentary form by the mathematician Ceorg Bernhard Riemann in 1854.
- In Einstein's hands gravitation theory was thus transformed from a theory of forces into the first dynamical theory
+ In Einstein\'s hands gravitation theory was thus transformed from a theory of forces into the first dynamical theory
  of geometry, the geometry of four dimensional curved space-time.</string>
 
     <string name="ligo_facts_text">Gravitational Waves Are Ripples in Space-Time

@@ -21,7 +21,7 @@
             android:layout_width="match_parent"
             android:layout_height="70dip"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="-35dp"
+            android:layout_marginTop="-90dp"
             android:background="#FBC02D">
             <TextView
                 android:layout_width="wrap_content"
@@ -29,7 +29,7 @@
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="Laser Interferometer\nGravitational-Wave Observatory"
                 android:textColor="#FFFFFF"
-                android:textSize="23dp"
+                android:textSize="14dp"
                 android:textStyle="italic"
                 android:layout_marginLeft="10dp" />
         </RelativeLayout>
@@ -60,7 +60,6 @@
             android:id="@+id/youtube_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginRight="10dp"
             android:src="@drawable/youtubebutt"
             app:layout_anchor="@id/title_bar"
             app:backgroundTint="#e53935"
