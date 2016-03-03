@@ -34,6 +34,28 @@
                 android:layout_marginLeft="10dp" />
         </RelativeLayout>
 
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="@+id/title_bar"
+        android:layout_marginTop="350dp"
+        android:id="@+id/scrollView"
+        android:layout_gravity="center_horizontal"
+        android:fillViewport="true">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="@string/ligo_info_text"
+            android:textSize="23dp"
+            android:textStyle="italic"
+            android:layout_marginLeft="10dp"/>
+
+    </ScrollView>
+
         <android.support.design.widget.FloatingActionButton
             android:id="@+id/youtube_button"
             android:layout_width="wrap_content"

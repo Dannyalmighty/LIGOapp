@@ -2,4 +2,45 @@
     <string name="app_name">LigoApp1</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+
+    <string name="ligo_info_text">The Laser Interferometer Gravitational-Wave Observatory (LIGO) is designed to open the field of
+ gravitational-wave astrophysics through the direct detection of gravitational waves predicted by
+ Einstein\’s General Theory of Relativity. LIGO\’s multi-kilometer-scale gravitational wave detectors
+ use laser interferometry to measure the minute ripples in space-time caused by passing
+ gravitational waves from cataclysmic cosmic sources such as the mergers of pairs of neutron
+ stars or black holes, or by supernovae. LIGO consists of two widely separated interferometers
+ within the United States—one in Hanford, Washington and the other in Livingston,
+ Louisiana—operated in unison to detect gravitational waves.</string>
+
+    <string name="grav_wave_theory">According to newtonian theory, gravitational effects propagate from place to place instantaneously. With the
+    advent of Einstein\'s special theory of relativity in 1905, a theory uniting the concepts of space and time into that
+    of four dimensional flat space-time.</string>
+
+    <string name="ligo_facts_text">Gravitational Waves Are Ripples in Space-Time
+    According to Albert Einstein\’s theory of general relativity, gravity is not a force reaching out through the universe. It\’s a bending
+    of space-time. When an object accelerates, it distorts the space-time around it, and that distortion travels away from the source
+    at the speed of light.
+
+    Gravitational Waves Come from Really Heavy Objects
+    So how massive an object are we talking about? The first proof that gravitational waves actually exist came from a binary
+    pulsar—two neutron stars, each about the mass of the Sun, that orbit each other. The pulsars\’ orbit is gradually shrinking,
+    so the pulsars are losing energy. That energy is exactly the amount that general relativity predicts that the pulsars would give
+    off in gravitational waves.
+
+    The Effect of Gravitational Waves Is Very, Very Small
+    Since gravitational waves are a ripple in space-time, they cause the distance between two points to change ever so slightly. How
+    slightly? LIGO must be able to measure distances as small as 10−19 meter. The proton has a radius of about 0.85 × 10−15 meter,
+    or 10,000 times larger.
+
+    Measuring Gravitational Waves Is Tricky
+    To detect a change in distance much smaller than the proton requires great precision. Each LIGO installation is a laser
+    interferometer made up of two underground pipes, each 1.3 meters (4.3 feet) wide and 4 km (2.5 miles) long, set in an L-shape.
+    The inside of the pipes is a vacuum. When a gravitational wave passes through LIGO, one arm of the instrument gets longer and
+    the other gets shorter. A laser beam is split in half, sent down the two pipes, reflected back, and then recombined so the two
+    beams cancel each other out in destructive interference if there is no gravitational wave. If there is a gravitational wave, the beams
+    won\’t cancel each other out. A 4-km long beam is still not enough to detect a gravitational wave, so the beams are bounced back
+    and forth about 400 times so the light travels a distance of 1,600 km (1,000 miles).</string>
+
+    <string name="black_hole_text">Click the button above to learn more about the black hole collision that lead to the detection of gravity waves</string>
+
 </resources>
