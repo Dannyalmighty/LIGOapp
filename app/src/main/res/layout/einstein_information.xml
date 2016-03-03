@@ -1,19 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#81C784">
 
-    <ImageView
-        android:id="@+id/einstein_button"
-        android:src="@drawable/menu_einstein"
-        android:scaleType="fitXY"
-        android:layout_width="match_parent"
-        android:layout_height="230dp"
-        android:layout_gravity="center_horizontal"
-        android:transitionName="einsteinTransition"/>
-
-    <LinearLayout
+    <RelativeLayout
+        android:id="@+id/title_bar2"
+        android:layout_marginTop="-35dp"
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="70dip"
@@ -24,10 +20,30 @@
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="Einstein's Gravitational\nWave Theory"
-            android:id="@+id/textView3"
             android:textColor="#FFFFFF"
             android:textSize="25dp"
             android:textStyle="italic"
             android:layout_marginLeft="10dp" />
-    </LinearLayout>
-</LinearLayout>
+    </RelativeLayout>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/youtube_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/youtubebutt"
+        app:layout_anchor="@id/title_bar2"
+        app:backgroundTint="#e53935"
+        app:layout_anchorGravity="bottom|right"
+        android:elevation="15dp">
+    </android.support.design.widget.FloatingActionButton>
+
+    <ImageView
+        android:id="@+id/einstein_button"
+        android:src="@drawable/menu_einstein"
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:transitionName="einsteinTransition"/>
+</android.support.design.widget.CoordinatorLayout>

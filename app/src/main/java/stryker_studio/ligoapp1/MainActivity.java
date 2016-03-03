@@ -1,29 +1,23 @@
 package stryker_studio.ligoapp1;
 
-import android.app.ActionBar;
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageButton;
 
-public class MainActivity extends Activity {
+public class MainActivity extends AppCompatActivity {
 
     private ImageButton learn_more_button;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        View decorView = getWindow().getDecorView();
-        // Hide the status bar.
-        int uiOptions = View.SYSTEM_UI_FLAG_FULLSCREEN;
-        decorView.setSystemUiVisibility(uiOptions);
-        ActionBar actionBar = getActionBar();
-        actionBar.hide();
 
         //set learn more button to show main_menu after click
         learn_more_button = (ImageButton) findViewById(R.id.learn_more_Button);

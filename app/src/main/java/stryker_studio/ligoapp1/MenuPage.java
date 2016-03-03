@@ -3,6 +3,7 @@ package stryker_studio.ligoapp1;
 import android.app.ActivityOptions;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageButton;
 
@@ -12,7 +13,7 @@ import butterknife.ButterKnife;
 /**
  * Created by danny on 3/1/16.
  */
-public class MenuPage extends MainActivity{
+public class MenuPage extends AppCompatActivity{
 
     //private ImageButton ligo_button;
     @Bind(R.id.ligo_button) ImageButton ligo_button;
