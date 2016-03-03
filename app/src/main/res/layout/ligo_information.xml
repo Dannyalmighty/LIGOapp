@@ -29,7 +29,7 @@
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="Laser Interferometer\nGravitational-Wave Observatory"
                 android:textColor="#FFFFFF"
-                android:textSize="14dp"
+                android:textSize="23dp"
                 android:textStyle="italic"
                 android:layout_marginLeft="10dp" />
         </RelativeLayout>
@@ -50,7 +50,7 @@
             android:layout_height="wrap_content"
             android:textColor="#FFFFFF"
             android:text="@string/ligo_info_text"
-            android:textSize="23dp"
+            android:textSize="14dp"
             android:textStyle="italic"
             android:layout_marginLeft="10dp"/>
 
