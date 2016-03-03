@@ -1,7 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FBC02D">
+    android:background="#FDD835">
 
-</LinearLayout>
+        <ImageView
+            android:id="@+id/ligo_button"
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:src="@drawable/menu_ligo"
+            android:scaleType="fitXY"
+            android:transitionName="ligoTransition" />
+
+        <RelativeLayout
+            android:id="@+id/title_bar"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="70dip"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="-90dp"
+            android:background="#FBC02D">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Laser Interferometer\nGravitational-Wave Observatory"
+                android:textColor="#FFFFFF"
+                android:textSize="23dp"
+                android:textStyle="italic"
+                android:layout_marginLeft="10dp" />
+        </RelativeLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="@+id/title_bar"
+        android:layout_marginTop="350dp"
+        android:id="@+id/scrollView"
+        android:layout_gravity="center_horizontal"
+        android:fillViewport="true">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="@string/ligo_info_text"
+            android:textSize="14dp"
+            android:textStyle="italic"
+            android:layout_marginLeft="10dp"/>
+
+    </ScrollView>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/youtube_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/youtubebutt"
+            app:layout_anchor="@id/title_bar"
+            app:backgroundTint="#e53935"
+            app:layout_anchorGravity="bottom|right"
+            android:elevation="15dp">
+        </android.support.design.widget.FloatingActionButton>
+
+</android.support.design.widget.CoordinatorLayout>
